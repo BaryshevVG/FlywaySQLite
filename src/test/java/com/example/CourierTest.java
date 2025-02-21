@@ -8,6 +8,7 @@ public class CourierTest extends AbstractTest {
     @Test
     public void testCreateCourier() {
         Courier courier = new Courier();
+        //в классе Courier у Вас нет этих set методов
         courier.setFirstName("John");
         courier.setLastName("Doe");
         courier.setPhoneNumber("+7 912 345 6789");
